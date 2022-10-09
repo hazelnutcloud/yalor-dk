@@ -13,6 +13,11 @@
 			<NavBar />
 			<SideBar />
 		</div>
+		<div
+			class="overflow-y-auto overflow-x-hidden h-[calc(100vh-4rem)] mt-16 lg:pl-16 flex flex-col items-center justify-center w-full"
+		>
+			<slot />
+		</div>
 	</div>
 	<div class="drawer-side">
 		<label for="my-drawer" class="drawer-overlay" />
