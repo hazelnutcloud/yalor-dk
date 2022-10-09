@@ -4,14 +4,12 @@
 	import '../app.css';
 </script>
 
-<!-- <div class="w-full h-screen flex flex-col"> -->
-	<div class="fixed top-0 left-0 w-full">
-		<NavBar />
-		<SideBar />
-	</div>
-	<!-- <div class="flex flex-1"> -->
-		<div class="overflow-y-auto overflow-x-hidden h-[calc(100vh-4rem)] mt-16 flex flex-col items-center justify-center w-full">
-			<slot />
-		</div>
-	<!-- </div> -->
-<!-- </div> -->
+<div class="fixed top-0 left-0 w-full">
+	<NavBar />
+	<SideBar />
+</div>
+<div
+	class="overflow-y-auto overflow-x-hidden h-[calc(100vh-4rem)] mt-16 lg:pl-16 flex flex-col items-center justify-center w-full"
+>
+	<slot />
+</div>

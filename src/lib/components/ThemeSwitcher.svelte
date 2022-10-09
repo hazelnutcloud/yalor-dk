@@ -1,4 +1,4 @@
-<label class="swap swap-rotate">
+<label class="swap swap-rotate scale-75 lg:scale-100">
   
   <!-- this hidden checkbox controls the state -->
   <input type="checkbox" />
